@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE04B1001E1F4F1A00E6D4D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B0FF1E1F4F1A00E6D4D1 /* main.m */; };
+		AE04B1031E1F4F1A00E6D4D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B1021E1F4F1A00E6D4D1 /* AppDelegate.m */; };
+		AE04B1061E1F4F1A00E6D4D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B1051E1F4F1A00E6D4D1 /* ViewController.m */; };
+		AE04B1091E1F4F1A00E6D4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1071E1F4F1A00E6D4D1 /* Main.storyboard */; };
+		AE04B10B1E1F4F1A00E6D4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04B10A1E1F4F1A00E6D4D1 /* Assets.xcassets */; };
+		AE04B10E1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04B10C1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard */; };
+		AE04B1191E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B1181E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.m */; };
+		AE04B1241E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B1231E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.m */; };
+		AE04B1AF1E1F5B1200E6D4D1 /* LYZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04B1AE1E1F5B1200E6D4D1 /* LYZAudioPlayer.m */; };
+		AE04B1B61E1F5BCE00E6D4D1 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B11E1F5BCE00E6D4D1 /* pause@2x.png */; };
+		AE04B1B71E1F5BCE00E6D4D1 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B21E1F5BCE00E6D4D1 /* play@2x.png */; };
+		AE04B1B81E1F5BCE00E6D4D1 /* play_normal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B31E1F5BCE00E6D4D1 /* play_normal_icon.png */; };
+		AE04B1B91E1F5BCE00E6D4D1 /* stop_normal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B41E1F5BCE00E6D4D1 /* stop_normal_icon.png */; };
+		AE04B1BA1E1F5BCE00E6D4D1 /* yanyuan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B51E1F5BCE00E6D4D1 /* yanyuan.mp3 */; };
+		AE04B2761E1F7F8400E6D4D1 /* playAudio.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE04B2751E1F7F8400E6D4D1 /* playAudio.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE04B1151E1F4F1A00E6D4D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE04B0F31E1F4F1A00E6D4D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE04B0FA1E1F4F1A00E6D4D1;
+			remoteInfo = LYZSimpleAudioPlayerDemo;
+		};
+		AE04B1201E1F4F1A00E6D4D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE04B0F31E1F4F1A00E6D4D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE04B0FA1E1F4F1A00E6D4D1;
+			remoteInfo = LYZSimpleAudioPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE04B0FB1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZSimpleAudioPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04B0FF1E1F4F1A00E6D4D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE04B1011E1F4F1A00E6D4D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE04B1021E1F4F1A00E6D4D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE04B1041E1F4F1A00E6D4D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE04B1051E1F4F1A00E6D4D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE04B1081E1F4F1A00E6D4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE04B10A1E1F4F1A00E6D4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE04B10D1E1F4F1A00E6D4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE04B10F1E1F4F1A00E6D4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04B1141E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZSimpleAudioPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04B1181E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYZSimpleAudioPlayerDemoTests.m; sourceTree = "<group>"; };
+		AE04B11A1E1F4F1A00E6D4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04B11F1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZSimpleAudioPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04B1231E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYZSimpleAudioPlayerDemoUITests.m; sourceTree = "<group>"; };
+		AE04B1251E1F4F1A00E6D4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04B1AD1E1F5B1200E6D4D1 /* LYZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZAudioPlayer.h; sourceTree = "<group>"; };
+		AE04B1AE1E1F5B1200E6D4D1 /* LYZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZAudioPlayer.m; sourceTree = "<group>"; };
+		AE04B1B11E1F5BCE00E6D4D1 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		AE04B1B21E1F5BCE00E6D4D1 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		AE04B1B31E1F5BCE00E6D4D1 /* play_normal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_normal_icon.png; sourceTree = "<group>"; };
+		AE04B1B41E1F5BCE00E6D4D1 /* stop_normal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_normal_icon.png; sourceTree = "<group>"; };
+		AE04B1B51E1F5BCE00E6D4D1 /* yanyuan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yanyuan.mp3; sourceTree = "<group>"; };
+		AE04B2751E1F7F8400E6D4D1 /* playAudio.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playAudio.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE04B0F81E1F4F1A00E6D4D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B1111E1F4F1A00E6D4D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B11C1E1F4F1A00E6D4D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE04B0F21E1F4F1A00E6D4D1 = {
+			isa = PBXGroup;
+			children = (
+				AE04B1B01E1F5BCE00E6D4D1 /* Resource */,
+				AE04B1AC1E1F5AFB00E6D4D1 /* LYZPlayer */,
+				AE04B0FD1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */,
+				AE04B1171E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests */,
+				AE04B1221E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests */,
+				AE04B0FC1E1F4F1A00E6D4D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE04B0FC1E1F4F1A00E6D4D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B0FB1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo.app */,
+				AE04B1141E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.xctest */,
+				AE04B11F1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE04B0FD1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B1011E1F4F1A00E6D4D1 /* AppDelegate.h */,
+				AE04B1021E1F4F1A00E6D4D1 /* AppDelegate.m */,
+				AE04B1041E1F4F1A00E6D4D1 /* ViewController.h */,
+				AE04B1051E1F4F1A00E6D4D1 /* ViewController.m */,
+				AE04B1071E1F4F1A00E6D4D1 /* Main.storyboard */,
+				AE04B10A1E1F4F1A00E6D4D1 /* Assets.xcassets */,
+				AE04B10C1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard */,
+				AE04B10F1E1F4F1A00E6D4D1 /* Info.plist */,
+				AE04B0FE1E1F4F1A00E6D4D1 /* Supporting Files */,
+			);
+			path = LYZSimpleAudioPlayerDemo;
+			sourceTree = "<group>";
+		};
+		AE04B0FE1E1F4F1A00E6D4D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B2751E1F7F8400E6D4D1 /* playAudio.gif */,
+				AE04B0FF1E1F4F1A00E6D4D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE04B1171E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B1181E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.m */,
+				AE04B11A1E1F4F1A00E6D4D1 /* Info.plist */,
+			);
+			path = LYZSimpleAudioPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		AE04B1221E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B1231E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.m */,
+				AE04B1251E1F4F1A00E6D4D1 /* Info.plist */,
+			);
+			path = LYZSimpleAudioPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		AE04B1AC1E1F5AFB00E6D4D1 /* LYZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B1AD1E1F5B1200E6D4D1 /* LYZAudioPlayer.h */,
+				AE04B1AE1E1F5B1200E6D4D1 /* LYZAudioPlayer.m */,
+			);
+			path = LYZPlayer;
+			sourceTree = "<group>";
+		};
+		AE04B1B01E1F5BCE00E6D4D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AE04B1B11E1F5BCE00E6D4D1 /* pause@2x.png */,
+				AE04B1B21E1F5BCE00E6D4D1 /* play@2x.png */,
+				AE04B1B31E1F5BCE00E6D4D1 /* play_normal_icon.png */,
+				AE04B1B41E1F5BCE00E6D4D1 /* stop_normal_icon.png */,
+				AE04B1B51E1F5BCE00E6D4D1 /* yanyuan.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE04B0FA1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04B1281E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemo" */;
+			buildPhases = (
+				AE04B0F71E1F4F1A00E6D4D1 /* Sources */,
+				AE04B0F81E1F4F1A00E6D4D1 /* Frameworks */,
+				AE04B0F91E1F4F1A00E6D4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYZSimpleAudioPlayerDemo;
+			productName = LYZSimpleAudioPlayerDemo;
+			productReference = AE04B0FB1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE04B1131E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04B12B1E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemoTests" */;
+			buildPhases = (
+				AE04B1101E1F4F1A00E6D4D1 /* Sources */,
+				AE04B1111E1F4F1A00E6D4D1 /* Frameworks */,
+				AE04B1121E1F4F1A00E6D4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE04B1161E1F4F1A00E6D4D1 /* PBXTargetDependency */,
+			);
+			name = LYZSimpleAudioPlayerDemoTests;
+			productName = LYZSimpleAudioPlayerDemoTests;
+			productReference = AE04B1141E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE04B11E1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04B12E1E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemoUITests" */;
+			buildPhases = (
+				AE04B11B1E1F4F1A00E6D4D1 /* Sources */,
+				AE04B11C1E1F4F1A00E6D4D1 /* Frameworks */,
+				AE04B11D1E1F4F1A00E6D4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE04B1211E1F4F1A00E6D4D1 /* PBXTargetDependency */,
+			);
+			name = LYZSimpleAudioPlayerDemoUITests;
+			productName = LYZSimpleAudioPlayerDemoUITests;
+			productReference = AE04B11F1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE04B0F31E1F4F1A00E6D4D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = artios;
+				TargetAttributes = {
+					AE04B0FA1E1F4F1A00E6D4D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69R2C36TU3;
+						ProvisioningStyle = Automatic;
+					};
+					AE04B1131E1F4F1A00E6D4D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69R2C36TU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE04B0FA1E1F4F1A00E6D4D1;
+					};
+					AE04B11E1E1F4F1A00E6D4D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69R2C36TU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE04B0FA1E1F4F1A00E6D4D1;
+					};
+				};
+			};
+			buildConfigurationList = AE04B0F61E1F4F1A00E6D4D1 /* Build configuration list for PBXProject "LYZSimpleAudioPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE04B0F21E1F4F1A00E6D4D1;
+			productRefGroup = AE04B0FC1E1F4F1A00E6D4D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE04B0FA1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */,
+				AE04B1131E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests */,
+				AE04B11E1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE04B0F91E1F4F1A00E6D4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04B1B71E1F5BCE00E6D4D1 /* play@2x.png in Resources */,
+				AE04B2761E1F7F8400E6D4D1 /* playAudio.gif in Resources */,
+				AE04B10E1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard in Resources */,
+				AE04B10B1E1F4F1A00E6D4D1 /* Assets.xcassets in Resources */,
+				AE04B1091E1F4F1A00E6D4D1 /* Main.storyboard in Resources */,
+				AE04B1B61E1F5BCE00E6D4D1 /* pause@2x.png in Resources */,
+				AE04B1B81E1F5BCE00E6D4D1 /* play_normal_icon.png in Resources */,
+				AE04B1BA1E1F5BCE00E6D4D1 /* yanyuan.mp3 in Resources */,
+				AE04B1B91E1F5BCE00E6D4D1 /* stop_normal_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B1121E1F4F1A00E6D4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B11D1E1F4F1A00E6D4D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE04B0F71E1F4F1A00E6D4D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04B1061E1F4F1A00E6D4D1 /* ViewController.m in Sources */,
+				AE04B1AF1E1F5B1200E6D4D1 /* LYZAudioPlayer.m in Sources */,
+				AE04B1031E1F4F1A00E6D4D1 /* AppDelegate.m in Sources */,
+				AE04B1001E1F4F1A00E6D4D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B1101E1F4F1A00E6D4D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04B1191E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE04B11B1E1F4F1A00E6D4D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04B1241E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE04B1161E1F4F1A00E6D4D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE04B0FA1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */;
+			targetProxy = AE04B1151E1F4F1A00E6D4D1 /* PBXContainerItemProxy */;
+		};
+		AE04B1211E1F4F1A00E6D4D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE04B0FA1E1F4F1A00E6D4D1 /* LYZSimpleAudioPlayerDemo */;
+			targetProxy = AE04B1201E1F4F1A00E6D4D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE04B1071E1F4F1A00E6D4D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04B1081E1F4F1A00E6D4D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE04B10C1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04B10D1E1F4F1A00E6D4D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE04B1261E1F4F1A00E6D4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE04B1271E1F4F1A00E6D4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE04B1291E1F4F1A00E6D4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE04B12A1E1F4F1A00E6D4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE04B12C1E1F4F1A00E6D4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZSimpleAudioPlayerDemo.app/LYZSimpleAudioPlayerDemo";
+			};
+			name = Debug;
+		};
+		AE04B12D1E1F4F1A00E6D4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZSimpleAudioPlayerDemo.app/LYZSimpleAudioPlayerDemo";
+			};
+			name = Release;
+		};
+		AE04B12F1E1F4F1A00E6D4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYZSimpleAudioPlayerDemo;
+			};
+			name = Debug;
+		};
+		AE04B1301E1F4F1A00E6D4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZSimpleAudioPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZSimpleAudioPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYZSimpleAudioPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE04B0F61E1F4F1A00E6D4D1 /* Build configuration list for PBXProject "LYZSimpleAudioPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04B1261E1F4F1A00E6D4D1 /* Debug */,
+				AE04B1271E1F4F1A00E6D4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04B1281E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04B1291E1F4F1A00E6D4D1 /* Debug */,
+				AE04B12A1E1F4F1A00E6D4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04B12B1E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04B12C1E1F4F1A00E6D4D1 /* Debug */,
+				AE04B12D1E1F4F1A00E6D4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04B12E1E1F4F1A00E6D4D1 /* Build configuration list for PBXNativeTarget "LYZSimpleAudioPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04B12F1E1F4F1A00E6D4D1 /* Debug */,
+				AE04B1301E1F4F1A00E6D4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE04B0F31E1F4F1A00E6D4D1 /* Project object */;
+}
