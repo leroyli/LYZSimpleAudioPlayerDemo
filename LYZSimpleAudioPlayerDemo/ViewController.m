@@ -44,6 +44,8 @@
         if (![LYZAudioPlayer shareInstance]) {
             NSString *url = @"http://megdadhashem.wapego.ru/files/56727/tubidy_mp3_e2afc5.mp3";
             [[LYZAudioPlayer shareInstance] playWithUrl:url];
+        }else{
+            [[LYZAudioPlayer shareInstance] play];
         }
         
     }else{
