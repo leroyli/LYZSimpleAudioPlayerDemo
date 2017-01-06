@@ -22,6 +22,7 @@
 		AE04B1B91E1F5BCE00E6D4D1 /* stop_normal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B41E1F5BCE00E6D4D1 /* stop_normal_icon.png */; };
 		AE04B1BA1E1F5BCE00E6D4D1 /* yanyuan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE04B1B51E1F5BCE00E6D4D1 /* yanyuan.mp3 */; };
 		AE04B2761E1F7F8400E6D4D1 /* playAudio.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE04B2751E1F7F8400E6D4D1 /* playAudio.gif */; };
+		AE04B27D1E1F83B200E6D4D1 /* playAudioImg.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE04B27C1E1F83B200E6D4D1 /* playAudioImg.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		AE04B1B41E1F5BCE00E6D4D1 /* stop_normal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_normal_icon.png; sourceTree = "<group>"; };
 		AE04B1B51E1F5BCE00E6D4D1 /* yanyuan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yanyuan.mp3; sourceTree = "<group>"; };
 		AE04B2751E1F7F8400E6D4D1 /* playAudio.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playAudio.gif; sourceTree = "<group>"; };
+		AE04B27C1E1F83B200E6D4D1 /* playAudioImg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playAudioImg.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		AE04B1B01E1F5BCE00E6D4D1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				AE04B27C1E1F83B200E6D4D1 /* playAudioImg.gif */,
 				AE04B1B11E1F5BCE00E6D4D1 /* pause@2x.png */,
 				AE04B1B21E1F5BCE00E6D4D1 /* play@2x.png */,
 				AE04B1B31E1F5BCE00E6D4D1 /* play_normal_icon.png */,
@@ -293,6 +296,7 @@
 				AE04B10E1E1F4F1A00E6D4D1 /* LaunchScreen.storyboard in Resources */,
 				AE04B10B1E1F4F1A00E6D4D1 /* Assets.xcassets in Resources */,
 				AE04B1091E1F4F1A00E6D4D1 /* Main.storyboard in Resources */,
+				AE04B27D1E1F83B200E6D4D1 /* playAudioImg.gif in Resources */,
 				AE04B1B61E1F5BCE00E6D4D1 /* pause@2x.png in Resources */,
 				AE04B1B81E1F5BCE00E6D4D1 /* play_normal_icon.png in Resources */,
 				AE04B1BA1E1F5BCE00E6D4D1 /* yanyuan.mp3 in Resources */,
