@@ -41,14 +41,16 @@
     
     sender.selected = !sender.selected;
     if (sender.selected) {
-        if (![LYZAudioPlayer shareInstance]) {
-            NSString *url = @"http://megdadhashem.wapego.ru/files/56727/tubidy_mp3_e2afc5.mp3";
-            [[LYZAudioPlayer shareInstance] playWithUrl:url];
-        }else{
+        
+        if ([LYZAudioPlayer shareInstance].isPauseing) {
             [[LYZAudioPlayer shareInstance] play];
+        }else{
+            NSString *url = @"http://megdadhashem.wapego.ru/files/56727/tubidy_mp3_e2afc5.mp3";
+            [[LYZAudioPlayer shareInstance] setAudioUrl:url];
         }
         
     }else{
+        
         [[LYZAudioPlayer shareInstance] pasue];
     }
 }

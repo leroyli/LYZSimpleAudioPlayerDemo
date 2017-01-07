@@ -14,12 +14,11 @@
 @property (nonatomic, strong) AVPlayer     *player;
 @property (nonatomic, strong) NSString     *audioUrl;
 @property (nonatomic, assign) BOOL         isPlaying;
+@property (nonatomic, assign) BOOL         isPauseing;
 @property (nonatomic, strong) AVPlayerItem *currentItem;
 @property (nonatomic, strong) AVPlayerItem *audioItem;
 
 + (instancetype)shareInstance;
-
-- (void)playWithUrl:(NSString *)url;
 - (void)play;
 - (void)pasue;
 

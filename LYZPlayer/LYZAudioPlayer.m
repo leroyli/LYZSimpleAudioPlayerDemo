@@ -79,6 +79,7 @@ static LYZAudioPlayer* _instance = nil;
     if (!self.isPlaying) {return;}
     [self.player pause];
     self.isPlaying = NO;
+    self.isPauseing = YES;
 }
 
 /**
@@ -140,6 +141,10 @@ static LYZAudioPlayer* _instance = nil;
         }
     }
     return _currentItem;
+}
+
+- (void)setAudioUrl:(NSString *)audioUrl{
+    [self playWithUrl:audioUrl];
 }
 
 - (void)dealloc{
